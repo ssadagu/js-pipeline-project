@@ -1,6 +1,6 @@
 pipeline {
 	agent any
-	envirement {
+	environment {
 		NEW_VERSION = '1.0.0'
 		ADMIN_CREDENTIALS = credentials('admin_user_credentials')
 	}
